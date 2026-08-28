@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="16" fill="#1C1C1A"/>
+  <!-- Volcanic Mountain Silhouette -->
+  <path d="M12 48L28 24L38 38L46 28L54 48H12Z" fill="#D7C7AE" fill-opacity="0.9"/>
+  <!-- Atlantic Wave accent -->
+  <path d="M10 52C18 50 26 54 34 52C42 50 50 54 58 52" stroke="#5B7C93" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
