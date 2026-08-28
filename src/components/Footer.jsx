@@ -20,7 +20,7 @@ export const Footer = ({ onNavigate, onOpenBooking, onOpenLegal }) => {
               className="text-left group focus:outline-none block"
             >
               <img
-                src="/images/logo-footer.png?v=3"
+                src="/images/logos/FOOTER.png?v=5"
                 alt="LA PICOTA SUITE · Los Llanillos, El Hierro"
                 className="h-24 sm:h-28 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
