@@ -102,7 +102,7 @@ export const FAQ = ({ onOpenBooking }) => {
                 : 'No questions matched your search criteria.'}
             </p>
             <a
-              href="https://wa.me/34638672576"
+              href="https://wa.me/34646293385"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 text-xs font-bold text-ocean-700 hover:text-ocean-900 mt-3"
@@ -127,13 +127,13 @@ export const FAQ = ({ onOpenBooking }) => {
 
         <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
           <a
-            href="https://wa.me/34638672576"
+            href="https://wa.me/34646293385"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 bg-[#25D366] hover:bg-[#20ba5a] text-white rounded-full text-xs font-bold uppercase tracking-wider transition-all flex items-center space-x-2 shadow-lg"
           >
             <MessageCircle className="w-4 h-4 fill-white stroke-none" />
-            <span>WhatsApp (+34 638 672 576)</span>
+            <span>WhatsApp (+34 646 29 33 85)</span>
           </a>
 
           <button

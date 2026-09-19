@@ -8,29 +8,29 @@ export const housesData = [
       en: 'Generous space, private pool, and Atlantic horizons'
     },
     shortDesc: {
-      es: 'Alojamiento principal de aproximadamente 100 m² con 2 dormitorios, piscina privada exterior, amplio jardín volcánico, barbacoa, terraza y vistas directas al mar y a los riscos de El Golfo. Recomendada para familias y grupos.',
-      en: 'Primary accommodation spanning approximately 100 m² with 2 bedrooms, exclusive private outdoor pool, large volcanic garden, barbecue, sun terrace, and direct views of the ocean and El Golfo cliffs. Recommended for families and groups.'
+      es: 'Alojamiento principal de aproximadamente 105 m² con 2 dormitorios, piscina privada exterior, amplio jardín volcánico, barbacoa, terraza y vistas directas al mar y a los riscos de El Golfo.',
+      en: 'Primary accommodation spanning approximately 105 m² with 2 bedrooms, exclusive private outdoor pool, large volcanic garden, barbecue, sun terrace, and direct views of the ocean and El Golfo cliffs.'
     },
     longDesc: {
       es: `CASA LA PICOTA es el alojamiento principal de LA PICOTA SUITE, diseñado para ofrecer una experiencia de gran amplitud, confort y privacidad en Los Llanillos.
       
-      Cuenta con aproximadamente 100 m² distribuidos en dos dormitorios luminosos (uno de matrimonio y otro con dos camas individuales), baño completo con plato de ducha, amplio salón con ventanal panorámico al Atlántico y cocina totalmente equipada con barra americana. Su exterior destaca por una piscina privada de uso exclusivo rodeada de solárium con tumbonas, porche cubierto con comedor y salón exterior, jardín de piedra volcánica, barbacoa y vistas directas al océano y a los riscos de El Golfo.`,
+      Cuenta con aproximadamente 105 m² distribuidos en dos dormitorios luminosos (uno de matrimonio y otro con dos camas individuales), baño completo con plato de ducha, amplio salón con ventanal panorámico al Atlántico y cocina totalmente equipada con barra americana. Su exterior destaca por una piscina privada de uso exclusivo rodeada de solárium con tumbonas, porche cubierto con comedor y salón exterior, jardín de piedra volcánica, barbacoa y vistas directas al océano y a los riscos de El Golfo.`,
       en: `CASA LA PICOTA is the primary and most spacious accommodation within LA PICOTA SUITE, tailored for an experience of space, comfort, and deep privacy in Los Llanillos.
       
-      Spanning approximately 100 m², it comprises two bright bedrooms (one master double and one twin bedroom), a full modern bathroom with walk-in shower, a spacious living area with panoramic ocean picture window, and a fully equipped kitchen with breakfast bar. Its outdoor living space features an exclusive private swimming pool surrounded by a sun deck, covered pergola with outdoor lounge and dining, volcanic garden, barbecue area, and sweeping vistas over the Atlantic and El Golfo cliffs.`
+      Spanning approximately 105 m², it comprises two bright bedrooms (one master double and one twin bedroom), a full modern bathroom with walk-in shower, a spacious living area with panoramic ocean picture window, and a fully equipped kitchen with breakfast bar. Its outdoor living space features an exclusive private swimming pool surrounded by a sun deck, covered pergola with outdoor lounge and dining, volcanic garden, barbecue area, and sweeping vistas over the Atlantic and El Golfo cliffs.`
     },
     specs: {
-      surface: '100 m²',
+      surface: '105 m²',
       capacity: { es: 'Hasta 4 huéspedes', en: 'Up to 4 guests' },
       maxGuests: 4,
       bedrooms: { es: '2 dormitorios', en: '2 bedrooms' },
       beds: { es: '1 Cama de matrimonio + 2 Camas individuales', en: '1 Double bed + 2 Twin beds' },
-      bathrooms: { es: '1 baño completo de diseño', en: '1 full designer bathroom' },
-      pool: { es: 'Piscina exterior privada', en: 'Private outdoor swimming pool' },
-      outdoor: { es: 'Terraza solárium, jardín volcánico, porche y barbacoa', en: 'Sun terrace, volcanic garden, porch & BBQ' },
+      bathrooms: { es: '1 baño completo', en: '1 full bathroom' },
+      pool: { es: 'Piscina exterior privada climatizada', en: 'Private heated outdoor swimming pool' },
+      outdoor: { es: 'Terraza solárium, jardín, porche y barbacoa', en: 'Sun terrace, garden, porch & BBQ' },
       views: { es: 'Océano Atlántico y riscos de El Golfo', en: 'Atlantic Ocean and El Golfo cliffs' },
       style: { es: 'Canario contemporáneo acogedor y luminoso', en: 'Bright and warm contemporary Canarian' },
-      idealFor: { es: 'Familias, grupos de amigos o parejas que buscan amplitud', en: 'Families, groups of friends, or couples seeking spacious comfort' },
+      idealFor: { es: 'Estancias amplias, confort y vistas panorámicas', en: 'Spacious stays, comfort, and panoramic views' },
       minStay: { es: '3 noches', en: '3 nights' },
       parking: { es: 'Aparcamiento privado en finca', en: 'Private on-site parking' },
       wifi: { es: 'Wi-Fi de alta velocidad incluido', en: 'High-speed Wi-Fi included' }
@@ -50,7 +50,7 @@ export const housesData = [
       'linens',
       'quiet'
     ],
-    bookingUrl: 'https://www.booking.com/hotel/es/casa-la-picota.es.html',
+    bookingUrl: 'https://www.booking.com/Share-tmw6o3O',
     bookingScore: '9.8',
     bookingReviewsCount: 34,
     hasBookingLink: true,
@@ -133,32 +133,32 @@ export const housesData = [
       en: 'Contemporary sanctuary, vast windows, and warm minimalism'
     },
     shortDesc: {
-      es: 'Alojamiento de aproximadamente 70 m² con 1 habitación independiente, gran espacio abierto de cocina, comedor y salón, baño, terraza, jardín y grandes ventanales con vistas al paisaje volcánico y al Atlántico. Especialmente atractiva para parejas.',
-      en: 'Contemporary accommodation of approximately 70 m² featuring 1 bedroom, vast open-concept kitchen-dining-living area, bathroom, terrace, garden, and panoramic windows framing volcanic vistas and the Atlantic. Especially appealing for couples.'
+      es: 'Alojamiento de aproximadamente 70 m² con 1 habitación independiente, gran espacio abierto de cocina, comedor y salón, baño, terraza, jardín y grandes ventanales con vistas al paisaje volcánico y al Atlántico.',
+      en: 'Contemporary accommodation of approximately 70 m² featuring 1 bedroom, vast open-concept kitchen-dining-living area, bathroom, terrace, garden, and panoramic windows framing volcanic vistas and the Atlantic.'
     },
     longDesc: {
       es: `LA PICOTA II es un refugio contemporáneo pensado para disfrutar de El Hierro desde la calma. Sus aproximadamente 70 m² combinan un amplio espacio abierto de cocina, comedor y salón con una habitación independiente y una conexión constante con el exterior.
       
-      Los grandes ventanales llenan el interior de luz y abren la vivienda hacia el paisaje, mientras que la terraza y el jardín ofrecen un espacio privado para disfrutar del entorno de Los Llanillos y desconectar al ritmo de la isla. Con una estética minimalista y cuidada, es el espacio ideal para parejas o retiros individuales.`,
+      Los grandes ventanales llenan el interior de luz y abren la vivienda hacia el paisaje, mientras que la terraza y el jardín ofrecen un espacio privado para disfrutar del entorno de Los Llanillos y desconectar al ritmo de la isla. Con una estética minimalista y cuidada, es un espacio ideal para estancias confortables y luminosas.`,
       en: `LA PICOTA II is a contemporary sanctuary crafted to experience El Hierro from deep serenity. Its approximately 70 m² combine an expansive open-plan kitchen, dining, and living space with an independent bedroom and a continuous dialogue with the outdoors.
       
-      Vast picture windows flood the interiors with natural light and frame the landscape, while the private terrace and garden provide an intimate setting to enjoy Los Llanillos and unwind to the rhythm of the island. With refined minimalist aesthetics, it is the ideal retreat for couples or solo travelers.`
+      Vast picture windows flood the interiors with natural light and frame the landscape, while the private terrace and garden provide an intimate setting to enjoy Los Llanillos and unwind to the rhythm of the island. With refined minimalist aesthetics, it is an ideal retreat for relaxing, comfortable stays.`
     },
     specs: {
       surface: '70 m²',
-      capacity: { es: 'Ideal 2 huéspedes', en: 'Ideal for 2 guests' },
-      maxGuests: 2,
+      capacity: { es: 'Hasta 4 huéspedes', en: 'Up to 4 guests' },
+      maxGuests: 4,
       bedrooms: { es: '1 habitación independiente', en: '1 independent bedroom' },
-      beds: { es: '1 Cama doble King Size', en: '1 King Size double bed' },
-      bathrooms: { es: '1 baño de diseño', en: '1 designer bathroom' },
-      pool: { es: 'No (Piscinas naturales de lava a 8 min)', en: 'No (Natural lava sea pools 8 min away)' },
-      outdoor: { es: 'Terraza privada, jardín volcánico y zona exterior', en: 'Private terrace, volcanic garden & outdoor lounge' },
+      beds: { es: '1 Cama doble y sofá-cama', en: '1 Double bed & sofa-bed' },
+      bathrooms: { es: '1 baño completo', en: '1 full bathroom' },
+      pool: null,
+      outdoor: { es: 'Terraza privada, jardín y zona exterior', en: 'Private terrace, garden & outdoor lounge' },
       views: { es: 'Paisaje volcánico y vistas al Atlántico', en: 'Volcanic landscape & Atlantic views' },
       style: { es: 'Minimalista contemporáneo / Grandes ventanales', en: 'Contemporary minimalist / Expansive windows' },
-      idealFor: { es: 'Parejas, escapadas íntimas y amantes de la arquitectura', en: 'Couples, intimate getaways & architecture lovers' },
+      idealFor: { es: 'Escapadas de descanso, amantes de la arquitectura y la calma', en: 'Relaxing getaways, architecture & calm lovers' },
       minStay: { es: '3 noches', en: '3 nights' },
       parking: { es: 'Aparcamiento privado en finca', en: 'Private on-site parking' },
-      wifi: { es: 'Wi-Fi de alta velocidad incluido', en: 'High-speed Wi-Fi included' }
+      wifi: null
     },
     amenitiesList: [
       'panoramicWindows',
@@ -167,7 +167,6 @@ export const housesData = [
       'garden',
       'seaView',
       'mountainView',
-      'wifi',
       'parking',
       'kitchen',
       'coffee',
@@ -207,6 +206,11 @@ export const housesData = [
         category: 'exteriores'
       },
       {
+        url: '/images/la-picota-2-gardens-terrace.jpg',
+        caption: { es: 'Amplios jardines y terraza exterior con vistas a los riscos', en: 'Spacious gardens and outdoor terrace overlooking the cliffs' },
+        category: 'exteriores'
+      },
+      {
         url: '/images/la-picota-2-bathroom.jpg',
         caption: { es: 'Baño de diseño con plato de ducha de lluvia y mampara de cristal', en: 'Designer bathroom with rainfall shower and glass partition' },
         category: 'interiores'
@@ -219,6 +223,11 @@ export const housesData = [
       {
         url: '/images/la-picota-2-living-tv.jpg',
         caption: { es: 'Zona de televisión y salón con sofá chaise longue', en: 'TV lounge zone with comfortable chaise longue sofa' },
+        category: 'interiores'
+      },
+      {
+        url: '/images/la-picota-2-sofabed.jpg',
+        caption: { es: 'Salón con sofá-cama abierto frente a los grandes ventanales', en: 'Living area with unfolded sofa-bed facing panoramic windows' },
         category: 'interiores'
       },
       {
@@ -248,7 +257,7 @@ export const housesData = [
 export const experienceSections = [
   {
     id: 'vistas',
-    title: { es: 'Vistas al Atlántico y a los Riscos', en: 'Atlantic Ocean & Cliff Horizons' },
+    title: { es: 'Vistas al Atlántico y a los Roques de Salmor', en: 'Atlantic Ocean & Roques de Salmor Views' },
     desc: {
       es: 'Desde Los Llanillos, la mirada abarca la grandeza del océano y el colosal anfiteatro natural del Valle de El Golfo.',
       en: 'From Los Llanillos, your gaze embraces the vast Atlantic ocean and the monumental amphitheater of El Golfo Valley.'
@@ -260,31 +269,32 @@ export const experienceSections = [
     id: 'arquitectura',
     title: { es: 'Arquitectura y Grandes Ventanales', en: 'Architecture & Vast Windows' },
     desc: {
-      es: 'Espacios diáfanos donde la luz atlántica entra generosamente, creando una conexión constante entre el interior y la roca volcánica.',
-      en: 'Luminous, open-plan spaces where Atlantic daylight flows freely, creating an uninterrupted connection with volcanic nature.'
+      es: 'Espacios diáfanos donde entra la luz atlántica, creando una conexión constante entre el interior y la roca volcánica.',
+      en: 'Luminous, open-plan spaces where Atlantic light flows in, creating an uninterrupted connection with volcanic nature.'
     },
     tag: { es: 'Diseño & Conexión', en: 'Design & Connection' },
     image: '/images/la-picota-2-facade.jpg'
   },
   {
     id: 'piscina',
-    title: { es: 'Piscina Privada y Solárium', en: 'Private Pool & Sun Deck' },
+    title: { es: 'Piscina privada climatizada y solárium', en: 'Private Heated Pool & Sun Deck' },
     desc: {
-      es: 'Exclusiva en CASA LA PICOTA: disfruta de un baño relajante con el rumor del viento y la silueta de los riscos como telón de fondo.',
-      en: 'Exclusive to CASA LA PICOTA: enjoy a rejuvenating swim with ocean breeze and towering cliffs as your backdrop.'
+      es: 'Exclusiva en CASA LA PICOTA: disfruta de un baño relajante en un entorno único.',
+      en: 'Exclusive to CASA LA PICOTA: enjoy a relaxing swim in a unique setting.'
     },
     tag: { es: 'Exclusividad & Bienestar', en: 'Exclusivity & Wellness' },
     image: '/images/portada.jpg'
   },
   {
     id: 'jardines',
-    title: { es: 'Jardines de Lava y Terrazas Privadas', en: 'Lava Gardens & Private Terraces' },
+    title: { es: 'Amplios jardines y terraza privada', en: 'Spacious Gardens & Private Terrace' },
     desc: {
-      es: 'Espacios exteriores independientes para desayunar al sol, leer en calma o contemplar los cielos nocturnos más limpios de Europa.',
-      en: 'Independent outdoor grounds to savor sunny breakfasts, read in total peace, or gaze at Europe’s clearest starlit skies.'
+      es: 'Un rincón abierto al paisaje donde disfrutar sin prisas, desde el primer café de la mañana hasta las noches bajo un cielo lleno de estrellas.',
+      en: 'An open haven embracing the landscape to enjoy without rush, from the first morning coffee to nights beneath a star-filled sky.'
     },
     tag: { es: 'Calma & Silencio', en: 'Calm & Silence' },
-    image: '/images/la-picota-2-terrace.jpg'
+    image: '/images/la-picota-2-gardens-terrace.jpg',
+    objectPosition: 'object-center'
   }
 ];
 
@@ -294,11 +304,11 @@ export const surroundingsSpots = [
     title: { es: 'Charco Azul', en: 'Charco Azul' },
     category: { es: 'Piscina Natural', en: 'Natural Sea Pool' },
     desc: {
-      es: 'Una cueva volcánica basáltica esculpida por el océano con aguas turquesas cristalinas. A solo 8 minutos de LA PICOTA SUITE.',
-      en: 'A natural basalt cave sculpted by the ocean filled with turquoise waters. Just 8 minutes from LA PICOTA SUITE.'
+      es: 'Una piscina natural en una cueva volcánica formada por el mar y rodeada por un paisaje muy característico de la isla, a solo 5 minutos de LA PICOTA SUITE.',
+      en: 'A natural pool inside a volcanic cave carved by the sea and surrounded by the island’s signature landscape, just 5 minutes from LA PICOTA SUITE.'
     },
-    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80',
-    distance: { es: '8 min en coche', en: '8 min drive' }
+    image: '/images/charco-azul.jpg',
+    distance: { es: '5 min en coche', en: '5 min drive' }
   },
   {
     id: 'la-maceta',
@@ -308,7 +318,7 @@ export const surroundingsSpots = [
       es: 'Tres piscinas de agua salada acondicionadas de forma respetuosa frente al rompiente del Atlántico. Ideal para nadar y ver el atardecer.',
       en: 'Three tidal saltwater pools designed harmoniously against the ocean surf. Perfect for swimming and sunset watching.'
     },
-    image: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=80',
+    image: '/images/la-maceta.jpg',
     distance: { es: '10 min en coche', en: '10 min drive' }
   },
   {
@@ -319,7 +329,7 @@ export const surroundingsSpots = [
       es: 'Balcón colosal a más de 1.200 m sobre el nivel del mar con vistas panorámicas de todo el Valle de El Golfo y el Atlántico.',
       en: 'Colossal mountain viewpoint over 1,200m above sea level with panoramic vistas of the entire El Golfo Valley and Atlantic.'
     },
-    image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80',
+    image: '/images/mirador-jinama.jpg',
     distance: { es: '20 min en coche', en: '20 min drive' }
   },
   {
@@ -330,7 +340,7 @@ export const surroundingsSpots = [
       es: 'Árboles centenarios retorcidos por la fuerza del viento alisio. Un icono del misticismo de El Hierro.',
       en: 'Centuries-old juniper trees sculpted into dramatic shapes by trade winds. An iconic symbol of El Hierro’s wild spirit.'
     },
-    image: 'https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80',
+    image: '/images/el-sabinar.jpg',
     distance: { es: '25 min en coche', en: '25 min drive' }
   },
   {
@@ -341,7 +351,7 @@ export const surroundingsSpots = [
       es: 'Antiguo caserío de pescadores con casas de piedra volcánica seca y techos de colmo junto a una piscina natural profunda.',
       en: 'Historic coastal hamlet with dry volcanic stone houses and thatched roofs next to a deep natural tidal basin.'
     },
-    image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80',
+    image: '/images/pozo-calcosas.jpg',
     distance: { es: '15 min en coche', en: '15 min drive' }
   },
   {
@@ -352,7 +362,7 @@ export const surroundingsSpots = [
       es: 'Pescado fresco del día, queso herreño artesanal, papas arrugadas con mojo picón y vinos volcánicos únicos de viñedos centenarios.',
       en: 'Fresh Atlantic catch of the day, artisanal goat cheeses, wrinkly potatoes with mojo sauce, and unique volcanic wines.'
     },
-    image: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=800&q=80',
+    image: '/images/gastronomia-frontera.jpg',
     distance: { es: 'En el Valle', en: 'Across the Valley' }
   }
 ];
@@ -441,8 +451,8 @@ export const faqsData = [
       en: 'What is the main difference between CASA LA PICOTA and LA PICOTA II?'
     },
     answer: {
-      es: 'CASA LA PICOTA es la vivienda principal de ~100 m², con 2 dormitorios (hasta 4 huéspedes), piscina privada exterior, jardín y barbacoa, ideal para familias o estancias amplias. LA PICOTA II es una vivienda de ~70 m² de estética contemporánea y minimalista, con 1 habitación y gran espacio abierto de cocina-comedor-salón con grandes ventanales, pensada especialmente para parejas.',
-      en: 'CASA LA PICOTA is the primary ~100 m² home with 2 bedrooms (up to 4 guests), private outdoor pool, garden, and barbecue, ideal for families or longer stays. LA PICOTA II is a ~70 m² contemporary minimalist home with 1 bedroom and a vast open-plan kitchen-dining-living area with expansive windows, tailored especially for couples.'
+      es: 'CASA LA PICOTA es la vivienda principal de ~105 m², con 2 dormitorios (hasta 4 huéspedes), piscina privada exterior, jardín y barbacoa. LA PICOTA II es una vivienda de ~70 m² de estética contemporánea y minimalista (hasta 4 huéspedes), con 1 habitación y gran espacio abierto de cocina-comedor-salón con grandes ventanales.',
+      en: 'CASA LA PICOTA is the primary ~105 m² home with 2 bedrooms (up to 4 guests), private outdoor pool, garden, and barbecue. LA PICOTA II is a ~70 m² contemporary minimalist home (up to 4 guests) with 1 bedroom and a vast open-plan kitchen-dining-living area with expansive windows.'
     }
   },
   {
@@ -453,8 +463,8 @@ export const faqsData = [
       en: 'How can I check availability and book?'
     },
     answer: {
-      es: 'Puedes utilizar el buscador o formulario de disponibilidad de esta web o pulsar el botón directo de WhatsApp (+34 638 672 576). Te responderemos con rapidez confirmando fechas y condiciones. En el caso de CASA LA PICOTA, también dispones de enlace a Booking.com.',
-      en: 'You can use the availability search bar or form on this website or click the direct WhatsApp button (+34 638 672 576). We will reply promptly with available dates and rates. For CASA LA PICOTA, you also have a link to Booking.com.'
+      es: 'Puedes utilizar el buscador o formulario de disponibilidad de esta web o pulsar el botón directo de WhatsApp (+34 646 29 33 85). Te responderemos con rapidez confirmando fechas y condiciones. En el caso de CASA LA PICOTA, también dispones de enlace a Booking.com.',
+      en: 'You can use the availability search bar or form on this website or click the direct WhatsApp button (+34 646 29 33 85). We will reply promptly with available dates and rates. For CASA LA PICOTA, you also have a link to Booking.com.'
     }
   },
   {
@@ -626,5 +636,61 @@ export const allGalleryPhotos = [
     title: { es: 'LA PICOTA II · Baño moderno con plato de ducha', en: 'LA PICOTA II · Modern bathroom with walk-in shower' },
     house: 'la-picota-ii',
     category: 'interiores'
+  },
+  {
+    id: 'p17',
+    url: '/images/la-picota-2-gardens-terrace.jpg',
+    title: { es: 'LA PICOTA II · Amplios jardines y terraza privada con vistas a los riscos', en: 'LA PICOTA II · Spacious gardens and private terrace overlooking cliffs' },
+    house: 'la-picota-ii',
+    category: 'exteriores'
+  },
+  {
+    id: 'p18',
+    url: '/images/la-picota-2-sofabed.jpg',
+    title: { es: 'LA PICOTA II · Salón con sofá-cama abierto frente a los ventanales', en: 'LA PICOTA II · Living room with unfolded sofa bed facing panoramic windows' },
+    house: 'la-picota-ii',
+    category: 'interiores'
+  },
+  {
+    id: 'p19',
+    url: '/images/charco-azul.jpg',
+    title: { es: 'Charco Azul · Cueva volcánica natural esculpida por el océano', en: 'Charco Azul · Natural volcanic sea cave' },
+    house: null,
+    category: 'entorno'
+  },
+  {
+    id: 'p20',
+    url: '/images/la-maceta.jpg',
+    title: { es: 'Piscinas de La Maceta · Piscinas naturales frente al Atlántico y Los Roques', en: 'La Maceta Natural Pools · Ocean tidal pools overlooking the cliffs' },
+    house: null,
+    category: 'entorno'
+  },
+  {
+    id: 'p21',
+    url: '/images/mirador-jinama.jpg',
+    title: { es: 'Mirador de Jinama · Balcón panorámico sobre el Valle de El Golfo a 1.200m', en: 'Jinama Viewpoint · Panoramic balcony over El Golfo Valley' },
+    house: null,
+    category: 'entorno'
+  },
+  {
+    id: 'p22',
+    url: '/images/el-sabinar.jpg',
+    title: { es: 'El Sabinar y La Dehesa · Sabinas centenarias esculpidas por el viento alisio', en: 'El Sabinar · Centuries-old wind-sculpted juniper trees' },
+    house: null,
+    category: 'entorno'
+  },
+  {
+    id: 'p23',
+    url: '/images/pozo-calcosas.jpg',
+    title: { es: 'Pozo de las Calcosas · Poblado tradicional de pescadores con piscina natural', en: 'Pozo de las Calcosas · Traditional fishing hamlet with natural tidal pool' },
+    house: null,
+    category: 'entorno'
+  },
+  {
+    id: 'p24',
+    url: '/images/gastronomia-frontera.jpg',
+    title: { es: 'Gastronomía y Vinos de Frontera · Queso herreño, tapas locales y vinos volcánicos', en: 'Gastronomy & Local Wines · Artisanal cheese and volcanic wines' },
+    house: null,
+    category: 'entorno'
   }
 ];

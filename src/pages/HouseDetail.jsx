@@ -59,7 +59,7 @@ export const HouseDetail = ({ houseId, onNavigate, onOpenBooking, onOpenLightbox
   const whatsappMessage = t(
     isPicota1 ? 'whatsapp.messages.casaLaPicota' : 'whatsapp.messages.laPicota2'
   );
-  const whatsappUrl = `https://wa.me/34638672576?text=${encodeURIComponent(whatsappMessage)}`;
+  const whatsappUrl = `https://wa.me/34646293385?text=${encodeURIComponent(whatsappMessage)}`;
 
   return (
     <div className="pt-28 pb-20 space-y-16 sm:space-y-24">
@@ -268,10 +268,12 @@ export const HouseDetail = ({ houseId, onNavigate, onOpenBooking, onOpenLightbox
                 <span className="text-stone-custom font-bold">{t('comparison.table.bedrooms')}:</span>
                 <span className="font-bold text-right text-lava-950">{house.specs.beds[lang]}</span>
               </div>
-              <div className="flex justify-between py-2 border-b border-sand-300">
-                <span className="text-stone-custom font-bold">{t('comparison.table.pool')}:</span>
-                <span className="font-bold text-right text-lava-950">{house.specs.pool[lang]}</span>
-              </div>
+              {house.specs.pool && (
+                <div className="flex justify-between py-2 border-b border-sand-300">
+                  <span className="text-stone-custom font-bold">{t('comparison.table.pool')}:</span>
+                  <span className="font-bold text-right text-lava-950">{house.specs.pool[lang]}</span>
+                </div>
+              )}
               <div className="flex justify-between py-2 border-b border-sand-300">
                 <span className="text-stone-custom font-bold">{t('comparison.table.outdoor')}:</span>
                 <span className="font-bold text-right text-lava-950">{house.specs.outdoor[lang]}</span>
@@ -332,7 +334,7 @@ export const HouseDetail = ({ houseId, onNavigate, onOpenBooking, onOpenLightbox
                   className="w-full py-3.5 bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold rounded-full text-xs uppercase tracking-wider transition-all shadow-lg flex items-center justify-center space-x-2"
                 >
                   <MessageCircle className="w-4 h-4 fill-white stroke-none" />
-                  <span>WhatsApp (+34 638 672 576)</span>
+                  <span>WhatsApp (+34 646 29 33 85)</span>
                 </a>
               </div>
             </div>

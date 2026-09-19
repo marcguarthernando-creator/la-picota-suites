@@ -130,7 +130,7 @@ export const BookingForm = ({
 *Teléfono:* ${formData.phone}
 *Mensaje:* ${formData.message || 'Sin peticiones adicionales'}`;
 
-    return `https://wa.me/34638672576?text=${encodeURIComponent(text)}`;
+    return `https://wa.me/34646293385?text=${encodeURIComponent(text)}`;
   };
 
   const todayStr = new Date().toISOString().split('T')[0];

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { housesData, experienceSections, guestReviews, faqsData, allGalleryPhotos } from '../data/content';
 import { QuickSearchBar } from '../components/QuickSearchBar';
-import { ComparisonTable } from '../components/ComparisonTable';
 import { ReviewCard } from '../components/ReviewCard';
 import { MapSection } from '../components/MapSection';
 import { BookingForm } from '../components/BookingForm';
@@ -35,50 +34,50 @@ export const Home = ({ onNavigate, onOpenBooking, onOpenLightbox }) => {
   return (
     <div className="w-full">
       
-      {/* 1. HERO SECTION (Texto elevado en la zona superior para dejar la piscina 100% visible y protagonista) */}
-      <section className="relative w-full min-h-[82vh] sm:min-h-[90vh] lg:min-h-[96vh] flex flex-col justify-start pt-28 sm:pt-36 pb-36 sm:pb-44 px-4 sm:px-6 lg:px-8 overflow-hidden bg-lava-950">
+      {/* 1. HERO SECTION (Composición compacta y armónica: texto un poco más abajo, piscina nítida y botón elevado) */}
+      <section className="relative w-full min-h-[58vh] sm:min-h-[72vh] lg:min-h-[90vh] flex flex-col justify-between pt-24 sm:pt-32 pb-4 sm:pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden bg-lava-950">
         
         {/* Full-width Impact Background Image */}
         <div className="absolute inset-0 z-0">
           <img
             src="/images/portada.jpg"
             alt="LA PICOTA SUITE · Los Llanillos, El Hierro"
-            className="w-full h-full object-cover object-[center_72%] sm:object-[center_65%] transition-all duration-700"
+            className="w-full h-full object-cover object-[center_50%] sm:object-[center_58%] transition-all duration-700"
           />
-          {/* Gradiente superior suave para lectura del titular, dejando la piscina inferior despejada y luminosa */}
-          <div className="absolute inset-0 bg-gradient-to-b from-lava-950/80 via-lava-950/35 to-transparent" />
-          <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-lava-950/40 to-transparent" />
+          {/* Gradiente sutil para legibilidad impecable sin apagar la piscina */}
+          <div className="absolute inset-0 bg-gradient-to-b from-lava-950/80 via-lava-950/20 to-transparent" />
+          <div className="absolute inset-x-0 bottom-0 h-28 sm:h-36 bg-gradient-to-t from-lava-950/50 via-transparent to-transparent" />
         </div>
 
-        {/* Hero Content (Concentrado arriba en el cielo y montaña para no tapar la piscina) */}
-        <div className="relative z-10 max-w-3xl mx-auto text-center text-cream-100 space-y-4 sm:space-y-5 animate-fade-in-up">
+        {/* Top Hero Content (Bajado ligeramente para mejor aire superior con el menú) */}
+        <div className="relative z-10 max-w-3xl mx-auto text-center text-cream-100 space-y-2.5 sm:space-y-5 animate-fade-in-up">
           
           {/* Location Badge */}
-          <div className="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-lava-950/75 backdrop-blur-md border border-sand-300/40 text-[11px] sm:text-xs tracking-widest uppercase font-semibold text-sand-200 shadow-lg">
+          <div className="inline-flex items-center space-x-1.5 px-3 py-0.5 sm:py-1 rounded-full bg-lava-950/75 backdrop-blur-md border border-sand-300/40 text-[10px] sm:text-xs tracking-widest uppercase font-semibold text-sand-200 shadow-md">
             <span className="w-1.5 h-1.5 rounded-full bg-sand-300 animate-pulse" />
             <span>{t('hero.tagline')}</span>
           </div>
 
           {/* Brand Name & Headline */}
-          <div className="space-y-1.5">
-            <span className="block text-[11px] sm:text-xs tracking-[0.3em] uppercase text-sand-300 font-bold drop-shadow-md">
+          <div className="space-y-0.5 sm:space-y-1">
+            <span className="block text-[10px] sm:text-xs tracking-[0.25em] sm:tracking-[0.3em] uppercase text-sand-300 font-bold drop-shadow-md">
               LA PICOTA SUITE
             </span>
-            <h1 className="font-serif text-3xl sm:text-5xl md:text-6xl lg:text-6xl tracking-tight leading-[1.1] text-balance font-normal drop-shadow-[0_3px_12px_rgba(0,0,0,0.85)] text-cream-50">
+            <h1 className="font-serif text-2xl sm:text-5xl md:text-6xl lg:text-6xl tracking-tight leading-[1.1] text-balance font-normal drop-shadow-[0_3px_12px_rgba(0,0,0,0.85)] text-cream-50">
               {t('hero.title')}
             </h1>
           </div>
 
           {/* Subtitle */}
-          <p className="text-xs sm:text-base text-cream-100 max-w-xl mx-auto font-normal leading-relaxed drop-shadow-[0_2px_6px_rgba(0,0,0,0.85)]">
+          <p className="text-[11.5px] sm:text-base text-cream-100 max-w-xs sm:max-w-xl mx-auto font-normal leading-relaxed drop-shadow-[0_2px_6px_rgba(0,0,0,0.85)] px-1 sm:px-0">
             {t('hero.subtitle')}
           </p>
 
-          {/* Action CTAs */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-1 sm:pt-2">
+          {/* Desktop-only CTAs & Trust Indicators (Intactos para versión PC) */}
+          <div className="hidden sm:flex flex-col sm:flex-row items-center justify-center gap-3.5 pt-2">
             <button
               onClick={() => onOpenBooking('both')}
-              className="w-full sm:w-auto px-7 py-3 bg-cream-100 text-lava-950 hover:bg-sand-300 font-bold rounded-full text-xs uppercase tracking-wider transition-all duration-300 shadow-2xl hover:shadow-[0_8px_30px_rgba(245,243,238,0.3)] transform hover:-translate-y-0.5 text-center flex items-center justify-center space-x-2"
+              className="px-7 py-3.5 bg-cream-100 text-lava-950 hover:bg-sand-300 font-bold rounded-full text-xs uppercase tracking-wider transition-all duration-300 shadow-xl hover:shadow-[0_8px_30px_rgba(245,243,238,0.3)] transform hover:-translate-y-0.5 text-center flex items-center justify-center space-x-2"
             >
               <Calendar className="w-3.5 h-3.5" />
               <span>{t('hero.ctaPrimary')}</span>
@@ -86,14 +85,13 @@ export const Home = ({ onNavigate, onOpenBooking, onOpenLightbox }) => {
 
             <a
               href="#alojamientos"
-              className="w-full sm:w-auto px-7 py-3 bg-lava-950/85 hover:bg-ocean-700 text-cream-100 border border-sand-300/50 backdrop-blur-md font-bold rounded-full text-xs uppercase tracking-wider transition-all duration-300 shadow-2xl hover:shadow-2xl transform hover:-translate-y-0.5 text-center"
+              className="px-7 py-3.5 bg-lava-950/85 hover:bg-ocean-700 text-cream-100 border border-sand-300/50 backdrop-blur-md font-bold rounded-full text-xs uppercase tracking-wider transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-0.5 text-center"
             >
               {t('hero.ctaSecondary')}
             </a>
           </div>
 
-          {/* Micro trust indicators (Compactos y elegantes) */}
-          <div className="pt-2 flex flex-wrap items-center justify-center gap-2 text-[11px] text-cream-100">
+          <div className="hidden sm:flex pt-2 flex-wrap items-center justify-center gap-2 text-[11px] text-cream-100">
             <span className="flex items-center space-x-1.5 bg-lava-950/70 backdrop-blur-md px-3 py-1 rounded-full border border-cream-100/20 font-medium shadow-sm">
               <Check className="w-3.5 h-3.5 text-sand-300 shrink-0" />
               <span>{lang === 'es' ? '2 Alojamientos' : '2 Accommodations'}</span>
@@ -110,10 +108,21 @@ export const Home = ({ onNavigate, onOpenBooking, onOpenLightbox }) => {
 
         </div>
 
+        {/* Mobile-only CTA: Subido aún más arriba hacia la parte alta de la mesa */}
+        <div className="sm:hidden relative z-10 w-full flex justify-center pt-2 pb-14">
+          <button
+            onClick={() => onOpenBooking('both')}
+            className="w-auto px-8 py-3 bg-cream-100 text-lava-950 active:bg-sand-300 font-bold rounded-full text-xs uppercase tracking-wider transition-all shadow-2xl border border-sand-300/60 flex items-center justify-center space-x-2 transform active:scale-95"
+          >
+            <Calendar className="w-3.5 h-3.5" />
+            <span>{t('hero.ctaPrimary')}</span>
+          </button>
+        </div>
+
       </section>
 
       {/* 2. BUSCADOR / CONSULTA RÁPIDA (Solapado elegante sobre el Hero) */}
-      <div className="relative z-20 -mt-6 sm:-mt-10">
+      <div className="relative z-20 -mt-2 sm:-mt-8">
         <QuickSearchBar onSearch={handleQuickSearch} />
       </div>
 
@@ -176,9 +185,6 @@ export const Home = ({ onNavigate, onOpenBooking, onOpenLightbox }) => {
                   <span className="bg-lava-950/85 backdrop-blur-md px-3.5 py-1 rounded-full border border-cream-100/20 font-semibold shadow-md">
                     {housesData[0].specs.surface} · {housesData[0].specs.capacity[lang]}
                   </span>
-                  <span className="bg-ocean-800/95 backdrop-blur-md px-3.5 py-1 rounded-full border border-cream-100/20 font-bold shadow-md">
-                    {lang === 'es' ? 'Familias & Grupos' : 'Families & Groups'}
-                  </span>
                 </div>
               </div>
 
@@ -199,7 +205,7 @@ export const Home = ({ onNavigate, onOpenBooking, onOpenLightbox }) => {
                   <div className="grid grid-cols-2 gap-2.5 mt-6 pt-6 border-t border-sand-300 text-xs text-lava-950 font-medium">
                     <div className="flex items-center space-x-2">
                       <span className="w-2 h-2 rounded-full bg-ocean-700 shrink-0" />
-                      <span>~100 m² de superficie</span>
+                      <span>~105 m² de superficie</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <span className="w-2 h-2 rounded-full bg-ocean-700 shrink-0" />
@@ -207,11 +213,11 @@ export const Home = ({ onNavigate, onOpenBooking, onOpenLightbox }) => {
                     </div>
                     <div className="flex items-center space-x-2">
                       <span className="w-2 h-2 rounded-full bg-ocean-700 shrink-0" />
-                      <span>Piscina de uso exclusivo</span>
+                      <span>{lang === 'es' ? 'Piscina climatizada de uso exclusivo' : 'Exclusive heated pool'}</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <span className="w-2 h-2 rounded-full bg-ocean-700 shrink-0" />
-                      <span>Jardín volcánico & Barbacoa</span>
+                      <span>{lang === 'es' ? 'Jardín y barbacoa' : 'Garden & barbecue'}</span>
                     </div>
                   </div>
                 </div>
@@ -255,9 +261,6 @@ export const Home = ({ onNavigate, onOpenBooking, onOpenLightbox }) => {
                 <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between text-cream-100 text-xs">
                   <span className="bg-lava-950/85 backdrop-blur-md px-3.5 py-1 rounded-full border border-cream-100/20 font-semibold shadow-md">
                     {housesData[1].specs.surface} · {housesData[1].specs.capacity[lang]}
-                  </span>
-                  <span className="bg-olive-800/95 backdrop-blur-md px-3.5 py-1 rounded-full border border-cream-100/20 font-bold shadow-md">
-                    {lang === 'es' ? 'Ideal Parejas' : 'Ideal for 2'}
                   </span>
                 </div>
               </div>
@@ -321,13 +324,7 @@ export const Home = ({ onNavigate, onOpenBooking, onOpenLightbox }) => {
         </section>
 
 
-        {/* 5. COMPARATIVA RÁPIDA */}
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ComparisonTable
-            onSelectHouse={(houseId) => onNavigate('house', houseId)}
-            onOpenBooking={(houseId) => onOpenBooking(houseId)}
-          />
-        </section>
+
 
 
         {/* 6. EXPERIENCIA Y CARACTERÍSTICAS (Inspiración Villa Mocanes) */}
@@ -340,9 +337,6 @@ export const Home = ({ onNavigate, onOpenBooking, onOpenLightbox }) => {
             <h2 className="font-serif text-3xl sm:text-4xl text-lava-950">
               {t('experience.title')}
             </h2>
-            <p className="text-stone-custom text-xs sm:text-sm font-normal">
-              {t('experience.subtitle')}
-            </p>
           </div>
 
           {/* Narrative Photo-Text Rows */}
@@ -358,11 +352,11 @@ export const Home = ({ onNavigate, onOpenBooking, onOpenLightbox }) => {
                 >
                   {/* Image */}
                   <div className={`lg:col-span-7 ${isReversed ? 'lg:order-2' : ''}`}>
-                    <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[16/10] group border border-sand-300/60">
+                    <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[16/10] sm:aspect-[16/9] group border border-sand-300/60">
                       <img
                         src={item.image}
                         alt={item.title[lang]}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                        className={`w-full h-full object-cover ${item.objectPosition || 'object-center'} group-hover:scale-105 transition-transform duration-700`}
                       />
                       <div className="absolute top-4 left-4 bg-lava-950/85 backdrop-blur-md px-3.5 py-1 rounded-full text-xs font-bold text-cream-100 border border-sand-300/40 shadow-md">
                         {item.tag[lang]}
@@ -517,10 +511,10 @@ export const Home = ({ onNavigate, onOpenBooking, onOpenLightbox }) => {
                   <p className="font-bold text-lava-950 text-sm">
                     {lang === 'es' ? '¿Prefieres atención inmediata?' : 'Prefer immediate attention?'}
                   </p>
-                  <p className="text-stone-custom font-semibold">+34 638 672 576</p>
+                  <p className="text-stone-custom font-semibold">+34 646 29 33 85</p>
                 </div>
                 <a
-                  href="https://wa.me/34638672576"
+                  href="https://wa.me/34646293385"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-5 py-2.5 bg-[#25D366] hover:bg-[#20ba5a] text-white rounded-full font-bold transition-colors flex items-center space-x-1.5 shadow-md text-xs uppercase tracking-wider"

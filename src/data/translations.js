@@ -14,7 +14,7 @@ export const translations = {
     hero: {
       tagline: 'Los Llanillos · El Hierro',
       title: 'Un lugar para desconectar.',
-      subtitle: 'Alojamientos independientes donde arquitectura, paisaje volcánico, montaña y Atlántico forman parte de una misma experiencia.',
+      subtitle: 'Dos alojamientos independientes donde arquitectura, paisaje volcánico, montaña y Atlántico forman parte de una misma experiencia.',
       ctaPrimary: 'Consultar disponibilidad',
       ctaSecondary: 'Descubre nuestros alojamientos',
     },
@@ -32,15 +32,15 @@ export const translations = {
       name: 'LA PICOTA SUITE',
       claim: 'Un lugar para desconectar.',
       location: 'Los Llanillos, Valle de El Golfo, El Hierro',
-      phone: '+34 638 672 576',
-      phoneFormatted: '+34 638 672 576',
-      instagram: '@lapicota_suite',
-      instagramUrl: 'https://instagram.com/lapicota_suite',
+      phone: '+34 646 29 33 85',
+      phoneFormatted: '+34 646 29 33 85',
+      instagram: '@lapicotasuite',
+      instagramUrl: 'https://www.instagram.com/lapicotasuite?stkn=MmhzNWJzOTF5bWky&utm_source=qr',
     },
     intro: {
       badge: 'La Esencia',
-      title: 'LA PICOTA SUITE: Un enclave en Los Llanillos',
-      description: 'En el Valle de El Golfo, al abrigo de los riscos y con el océano en el horizonte, LA PICOTA SUITE engloba dos casas independientes con personalidad propia, diseñadas para experimentar la calma y la belleza salvaje de El Hierro.',
+      title: 'LA PICOTA SUITE: Un marco incomparable en el Valle de El Golfo',
+      description: 'En Frontera, al abrigo del Valle de El Golfo y con unas vistas espectaculares de Los Roques de Salmor. La Picota Suite engloba dos casas independientes con personalidad propia, diseñadas para experimentar la calma y la belleza de la isla de El Hierro.',
     },
     twoAccommodations: {
       badge: 'Nuestros Alojamientos',
@@ -51,7 +51,7 @@ export const translations = {
     },
     experience: {
       badge: 'La Experiencia',
-      title: 'Vivir el silencio y la luz atlántica',
+      title: 'Vivir el silencio y la desconexión',
       subtitle: 'Cada rincón de LA PICOTA SUITE dialoga con la naturaleza volcánica.',
       blocks: [
         {
@@ -130,8 +130,8 @@ export const translations = {
       houseSelect: 'Alojamiento deseado',
       houseOptions: {
         both: 'Cualquiera / Indiferente',
-        casaLaPicota: 'CASA LA PICOTA (~100 m² · Hasta 4 huéspedes · Piscina privada)',
-        laPicota2: 'LA PICOTA II (~70 m² · Ideal parejas / 2 huéspedes · Grandes ventanales)'
+        casaLaPicota: 'CASA LA PICOTA (~105 m² · Hasta 4 huéspedes · Piscina privada)',
+        laPicota2: 'LA PICOTA II (~70 m² · Hasta 4 huéspedes · Grandes ventanales)'
       },
       checkIn: 'Fecha de llegada',
       checkOut: 'Fecha de salida',
@@ -181,12 +181,12 @@ export const translations = {
     },
     amenities: {
       wifi: 'Wi-Fi de alta velocidad',
-      pool: 'Piscina exterior privada',
+      pool: 'Piscina exterior climatizada',
       parking: 'Aparcamiento privado',
       kitchen: 'Cocina totalmente equipada',
       terrace: 'Terraza solárium con vistas',
-      garden: 'Jardín con vegetación volcánica',
-      seaView: 'Vistas panorámicas al océano',
+      garden: 'Jardín con vegetación',
+      seaView: 'Vistas panorámicas al océano y al valle',
       mountainView: 'Vistas a los riscos de El Golfo',
       bbq: 'Zona de barbacoa exterior',
       tv: 'Smart TV',
@@ -212,7 +212,7 @@ export const translations = {
     hero: {
       tagline: 'Los Llanillos · El Hierro',
       title: 'A place to disconnect.',
-      subtitle: 'Independent holiday homes where architecture, volcanic landscape, mountain, and Atlantic are part of the same experience.',
+      subtitle: 'Two independent accommodations where architecture, volcanic landscape, mountain, and Atlantic are part of the same experience.',
       ctaPrimary: 'Check availability',
       ctaSecondary: 'Discover our accommodations',
     },
@@ -230,15 +230,15 @@ export const translations = {
       name: 'LA PICOTA SUITE',
       claim: 'A place to disconnect.',
       location: 'Los Llanillos, El Golfo Valley, El Hierro',
-      phone: '+34 638 672 576',
-      phoneFormatted: '+34 638 672 576',
-      instagram: '@lapicota_suite',
-      instagramUrl: 'https://instagram.com/lapicota_suite',
+      phone: '+34 646 29 33 85',
+      phoneFormatted: '+34 646 29 33 85',
+      instagram: '@lapicotasuite',
+      instagramUrl: 'https://www.instagram.com/lapicotasuite?stkn=MmhzNWJzOTF5bWky&utm_source=qr',
     },
     intro: {
       badge: 'The Essence',
-      title: 'LA PICOTA SUITE: An enclave in Los Llanillos',
-      description: 'Nestled in El Golfo Valley, sheltered by dramatic volcanic cliffs with the Atlantic on the horizon, LA PICOTA SUITE encompasses two independent homes with distinct personalities, designed to experience the deep calm and wild beauty of El Hierro.',
+      title: 'LA PICOTA SUITE: An incomparable setting in El Golfo Valley',
+      description: 'In Frontera, nestled in El Golfo Valley with spectacular views of Los Roques de Salmor. La Picota Suite encompasses two independent homes with distinct personalities, designed to experience the peace and beauty of the island of El Hierro.',
     },
     twoAccommodations: {
       badge: 'Our Accommodations',
@@ -249,7 +249,7 @@ export const translations = {
     },
     experience: {
       badge: 'The Experience',
-      title: 'Living the silence and Atlantic light',
+      title: 'Experience silence and true disconnection',
       subtitle: 'Every corner of LA PICOTA SUITE harmonizes with volcanic nature.',
       blocks: [
         {
@@ -328,8 +328,8 @@ export const translations = {
       houseSelect: 'Selected accommodation',
       houseOptions: {
         both: 'Either / Any available',
-        casaLaPicota: 'CASA LA PICOTA (~100 m² · Up to 4 guests · Private pool)',
-        laPicota2: 'LA PICOTA II (~70 m² · Ideal for couples / 2 guests · Large windows)'
+        casaLaPicota: 'CASA LA PICOTA (~105 m² · Up to 4 guests · Private pool)',
+        laPicota2: 'LA PICOTA II (~70 m² · Up to 4 guests · Large windows)'
       },
       checkIn: 'Check-in date',
       checkOut: 'Check-out date',
@@ -379,12 +379,12 @@ export const translations = {
     },
     amenities: {
       wifi: 'High-speed Wi-Fi',
-      pool: 'Private outdoor pool',
+      pool: 'Heated outdoor pool',
       parking: 'Private parking',
       kitchen: 'Fully equipped kitchen',
       terrace: 'Sun terrace with panoramic views',
-      garden: 'Volcanic garden landscape',
-      seaView: 'Panoramic Atlantic ocean views',
+      garden: 'Garden with lush vegetation',
+      seaView: 'Panoramic ocean & valley views',
       mountainView: 'Dramatic El Golfo cliffs views',
       bbq: 'Outdoor BBQ grill area',
       tv: 'Smart TV',

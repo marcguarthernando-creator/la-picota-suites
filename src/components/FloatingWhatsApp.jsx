@@ -6,7 +6,7 @@ export const FloatingWhatsApp = ({ currentPath, currentHouseId }) => {
   const { lang, t } = useLanguage();
   const [showTooltip, setShowTooltip] = useState(true);
 
-  const phoneNumber = '34638672576';
+  const phoneNumber = '34646293385';
 
   let messageKey = 'whatsapp.messages.general';
   if (currentPath === 'house' && currentHouseId === 'la-picota') {

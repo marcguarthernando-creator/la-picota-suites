@@ -40,7 +40,6 @@ export const Navbar = ({ currentPath, onNavigate, onOpenBooking }) => {
       path: 'house',
       hasDropdown: true 
     },
-    { label: t('nav.surroundings'), path: 'entorno' },
     { label: t('nav.gallery'), path: 'galeria' },
     { label: t('nav.faq'), path: 'faq' },
     { label: t('nav.contact'), path: 'contacto' },
@@ -113,7 +112,7 @@ export const Navbar = ({ currentPath, onNavigate, onOpenBooking }) => {
                             <span className="text-xs font-bold text-lava-700 group-hover/sub:translate-x-1 transition-transform">→</span>
                           </div>
                           <span className="block text-[11px] text-stone-custom font-normal mt-0.5">
-                            Piscina privada · 4 personas
+                            {lang === 'es' ? 'Piscina privada · 4 personas' : 'Private pool · 4 guests'}
                           </span>
                         </div>
                       </button>
@@ -135,7 +134,7 @@ export const Navbar = ({ currentPath, onNavigate, onOpenBooking }) => {
                             <span className="text-xs font-bold text-lava-700 group-hover/sub:translate-x-1 transition-transform">→</span>
                           </div>
                           <span className="block text-[11px] text-stone-custom font-normal mt-0.5">
-                            Diseño minimalista · 2 personas
+                            {lang === 'es' ? 'Diseño minimalista · 4 personas' : 'Minimalist design · 4 guests'}
                           </span>
                         </div>
                       </button>
@@ -266,24 +265,14 @@ export const Navbar = ({ currentPath, onNavigate, onOpenBooking }) => {
                 >
                   <span className="flex items-center space-x-2">
                     <Sparkles className="w-3.5 h-3.5 text-olive-700" />
-                    <span>LA PICOTA II (Minimalista · 2p)</span>
+                    <span>LA PICOTA II (Minimalista · 4p)</span>
                   </span>
                   <span className="text-stone-custom">→</span>
                 </button>
               </div>
             </div>
 
-            <button
-              onClick={() => handleNavClick('entorno')}
-              className={`w-full text-left px-4 py-3 rounded-xl text-sm font-bold transition-colors flex items-center space-x-2 ${
-                currentPath === 'entorno'
-                  ? 'bg-sand-200 text-lava-950 font-bold'
-                  : 'text-lava-950 hover:bg-sand-200/60'
-              }`}
-            >
-              <MapPin className="w-4 h-4 text-ocean-700" />
-              <span>{t('nav.surroundings')}</span>
-            </button>
+
 
             <button
               onClick={() => handleNavClick('galeria')}

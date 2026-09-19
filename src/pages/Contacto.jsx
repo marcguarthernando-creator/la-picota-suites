@@ -67,13 +67,13 @@ export const Contacto = ({ onOpenBooking }) => {
             </p>
 
             <a
-              href="https://wa.me/34638672576"
+              href="https://wa.me/34646293385"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center space-x-2 w-full py-3.5 bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold rounded-full text-xs uppercase tracking-wider transition-all shadow-md"
             >
               <MessageCircle className="w-4 h-4 fill-white stroke-none" />
-              <span>+34 638 672 576</span>
+              <span>+34 646 29 33 85</span>
             </a>
           </div>
 
@@ -100,8 +100,8 @@ export const Contacto = ({ onOpenBooking }) => {
                   <strong className="text-lava-950 block font-bold">
                     {lang === 'es' ? 'Teléfono de Contacto' : 'Phone Contact'}
                   </strong>
-                  <a href="tel:+34638672576" className="text-lava-950 hover:text-ocean-700 font-bold underline">
-                    +34 638 672 576
+                  <a href="tel:+34646293385" className="text-lava-950 hover:text-ocean-700 font-bold underline">
+                    +34 646 29 33 85
                   </a>
                 </div>
               </div>
@@ -113,12 +113,12 @@ export const Contacto = ({ onOpenBooking }) => {
                     Instagram Oficial
                   </strong>
                   <a
-                    href="https://instagram.com/lapicota_suite"
+                    href="https://www.instagram.com/lapicotasuite?stkn=MmhzNWJzOTF5bWky&utm_source=qr"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-lava-950 hover:text-ocean-700 font-bold underline"
                   >
-                    @lapicota_suite
+                    @lapicotasuite
                   </a>
                 </div>
               </div>

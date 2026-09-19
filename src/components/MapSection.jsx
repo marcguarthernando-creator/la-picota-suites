@@ -26,8 +26,8 @@ export const MapSection = ({ onSelectSpot = null }) => {
           </h2>
           <p className="text-stone-300 text-sm sm:text-base leading-relaxed font-normal">
             {lang === 'es'
-              ? 'Entre la pared vertical del risco y el mar abierto. Un enclave protegido con el mejor microclima de la isla, a pocos minutos de las piscinas naturales más famosas.'
-              : 'Between sheer volcanic cliffs and the open ocean. A sheltered enclave boasting the island’s finest microclimate, minutes from legendary natural tide pools.'}
+              ? 'Un enclave protegido con el mejor microclima de la isla, a pocos minutos de las piscinas naturales de La Maceta y El Charco Azul.'
+              : 'A sheltered enclave with the best microclimate on the island, just minutes from the natural pools of La Maceta and Charco Azul.'}
           </p>
         </div>
 
@@ -132,7 +132,7 @@ export const MapSection = ({ onSelectSpot = null }) => {
               <div className="flex items-center space-x-2.5 text-stone-300">
                 <Waves className="w-4 h-4 text-ocean-300 shrink-0 stroke-[2.5]" />
                 <div>
-                  <p className="font-bold text-cream-50">8 min</p>
+                  <p className="font-bold text-cream-50">5 min</p>
                   <p className="text-[10px] text-stone-400 font-medium">Charco Azul</p>
                 </div>
               </div>
@@ -146,7 +146,7 @@ export const MapSection = ({ onSelectSpot = null }) => {
               <div className="flex items-center space-x-2.5 text-stone-300">
                 <Mountain className="w-4 h-4 text-olive-300 shrink-0 stroke-[2.5]" />
                 <div>
-                  <p className="font-bold text-cream-50">5 min</p>
+                  <p className="font-bold text-cream-50">8 min</p>
                   <p className="text-[10px] text-stone-400 font-medium">Frontera centro</p>
                 </div>
               </div>

@@ -8,20 +8,20 @@ export const ComparisonTable = ({ onSelectHouse, onOpenBooking }) => {
   const comparisonRows = [
     {
       feature: t('comparison.table.surface'),
-      picota: '~100 m²',
+      picota: '~105 m²',
       picota2: '~70 m²',
       highlight: false,
     },
     {
       feature: t('comparison.table.capacity'),
       picota: lang === 'es' ? 'Hasta 4 huéspedes' : 'Up to 4 guests',
-      picota2: lang === 'es' ? 'Ideal 2 huéspedes' : 'Ideal for 2 guests',
+      picota2: lang === 'es' ? 'Hasta 4 huéspedes' : 'Up to 4 guests',
       highlight: true,
     },
     {
       feature: t('comparison.table.bedrooms'),
       picota: lang === 'es' ? '2 dormitorios (1 Queen + 2 individuales)' : '2 bedrooms (1 Queen + 2 twins)',
-      picota2: lang === 'es' ? '1 habitación independiente (King Size)' : '1 independent bedroom (King Size)',
+      picota2: lang === 'es' ? '1 cama doble + sofá-cama' : '1 double bed + sofa-bed',
       highlight: false,
     },
     {
@@ -33,7 +33,7 @@ export const ComparisonTable = ({ onSelectHouse, onOpenBooking }) => {
     {
       feature: t('comparison.table.pool'),
       picota: {
-        text: lang === 'es' ? 'Piscina exterior privada exclusiva' : 'Exclusive private outdoor pool',
+        text: lang === 'es' ? 'Piscina exterior privada climatizada de uso exclusivo' : 'Exclusive heated private outdoor pool',
         included: true,
       },
       picota2: {
@@ -62,8 +62,8 @@ export const ComparisonTable = ({ onSelectHouse, onOpenBooking }) => {
     },
     {
       feature: t('comparison.table.idealFor'),
-      picota: lang === 'es' ? 'Familias, grupos pequeños o parejas que buscan espacio' : 'Families, small groups, or couples seeking space',
-      picota2: lang === 'es' ? 'Parejas, retiros íntimos y amantes de la calma' : 'Couples, intimate retreats & design enthusiasts',
+      picota: lang === 'es' ? 'Estancias amplias, confort y vistas panorámicas' : 'Spacious stays, comfort & panoramic views',
+      picota2: lang === 'es' ? 'Escapadas de descanso y amantes de la calma' : 'Relaxing getaways & calm lovers',
       highlight: true,
     },
     {
@@ -116,7 +116,7 @@ export const ComparisonTable = ({ onSelectHouse, onOpenBooking }) => {
               CASA LA PICOTA
             </h3>
             <p className="text-xs text-stone-custom mt-1 max-w-xs mx-auto font-normal">
-              {lang === 'es' ? 'Amplitud (~100 m²), piscina privada y terrazas frente al mar.' : 'Spacious (~100 m²), private pool & sea-facing terraces.'}
+              {lang === 'es' ? 'Amplitud (~105 m²), piscina privada y terrazas frente al mar.' : 'Spacious (~105 m²), private pool & sea-facing terraces.'}
             </p>
           </div>
 

@@ -37,7 +37,7 @@ export const Footer = ({ onNavigate, onOpenBooking, onOpenLegal }) => {
             {/* Social & Direct Contact Badges */}
             <div className="flex items-center space-x-3 pt-2">
               <a
-                href="https://instagram.com/lapicota_suite"
+                href="https://www.instagram.com/lapicotasuite?stkn=MmhzNWJzOTF5bWky&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram LA PICOTA SUITE"
@@ -47,7 +47,7 @@ export const Footer = ({ onNavigate, onOpenBooking, onOpenLegal }) => {
               </a>
 
               <a
-                href="https://wa.me/34638672576"
+                href="https://wa.me/34646293385"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp LA PICOTA SUITE"
@@ -79,7 +79,7 @@ export const Footer = ({ onNavigate, onOpenBooking, onOpenLegal }) => {
                   className="hover:text-olive-700 transition-colors text-left flex items-center space-x-2 font-medium"
                 >
                   <span className="w-2 h-2 rounded-full bg-olive-700 shrink-0" />
-                  <span>LA PICOTA II (Minimalista · 2p)</span>
+                  <span>LA PICOTA II (Minimalista · 4p)</span>
                 </button>
               </li>
               <li>
@@ -115,14 +115,7 @@ export const Footer = ({ onNavigate, onOpenBooking, onOpenLegal }) => {
                   {t('nav.home')}
                 </button>
               </li>
-              <li>
-                <button
-                  onClick={() => onNavigate('entorno')}
-                  className="hover:text-ocean-700 transition-colors text-left font-medium"
-                >
-                  {t('nav.surroundings')}
-                </button>
-              </li>
+
               <li>
                 <button
                   onClick={() => onNavigate('faq')}
@@ -154,14 +147,14 @@ export const Footer = ({ onNavigate, onOpenBooking, onOpenLegal }) => {
               </div>
               <div className="flex items-center space-x-2.5">
                 <Phone className="w-4 h-4 text-ocean-700 shrink-0" />
-                <a href="tel:+34638672576" className="hover:text-ocean-700 transition-colors font-bold text-lava-950">
-                  +34 638 672 576
+                <a href="tel:+34646293385" className="hover:text-ocean-700 transition-colors font-bold text-lava-950">
+                  +34 646 29 33 85
                 </a>
               </div>
               <div className="flex items-center space-x-2.5">
                 <MessageCircle className="w-4 h-4 text-[#25D366] shrink-0 fill-[#25D366] stroke-none" />
                 <a
-                  href="https://wa.me/34638672576"
+                  href="https://wa.me/34646293385"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-emerald-700 transition-colors font-bold text-lava-950"

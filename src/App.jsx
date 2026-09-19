@@ -9,7 +9,6 @@ import { LegalModal } from './pages/Legal';
 
 import { Home } from './pages/Home';
 import { HouseDetail } from './pages/HouseDetail';
-import { Entorno } from './pages/Entorno';
 import { Galeria } from './pages/Galeria';
 import { FAQ } from './pages/FAQ';
 import { Contacto } from './pages/Contacto';
@@ -47,8 +46,6 @@ const MainApp = () => {
       } else if (hash === 'la-picota-ii' || hash === 'casa-salmor' || hash === 'salmor') {
         setCurrentPath('house');
         setSelectedHouseId('la-picota-ii');
-      } else if (hash === 'entorno') {
-        setCurrentPath('entorno');
       } else if (hash === 'galeria') {
         setCurrentPath('galeria');
       } else if (hash === 'faq') {
@@ -129,12 +126,7 @@ const MainApp = () => {
           />
         )}
 
-        {currentPath === 'entorno' && (
-          <Entorno
-            onNavigate={navigateTo}
-            onOpenBooking={handleOpenBooking}
-          />
-        )}
+
 
         {currentPath === 'galeria' && (
           <Galeria
